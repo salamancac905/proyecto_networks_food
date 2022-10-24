@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="shorcut icon" href="assets/img/foto.png">
+	<link rel="stylesheet" href="assets/CSS/bootstrap.min.css" >
+  <link rel="stylesheet" href="assets/CSS/all.css">
+  <link rel="stylesheet" href="assets/CSS/admin_view.css">
+
+	<title></title>
+</head>
+<body class="">
+	<h1 class="text-center">Módulos</h1>
+	<div class="card-deck">
+  <div class="card  p-2 border-dark">
+      <h5 class="card-title card-header text-center">Gestión de Usuarios</h5>
+    <div class="card-body ">
+    <img src="assets/img/usuario.png" class="card-img-top iconos " alt="...">
+      <ul >
+      	<ol><a class="btn btn-outline-dark" href="?c=Users&a=create">Registrar Usuario</a></ol>
+      	<ol><a class="btn btn-outline-dark" href="?c=Users&a=read">Ver Perfil</a></ol>
+      	
+      </ul>
+    </div>
+    
+  </div>
+  
+
+  <div class="card  p-2 border-dark">
+      <h5 class=" text-center card-header">Gestión de Domicilios</h5>
+    <div class="card-body ">
+    <img src="assets/img/domicilio.jpg" class="card-img-top iconos " alt="...">
+      <ul>
+      	<ol><a class="btn btn-outline-dark" href="">Ver Domicilios</a></ol>
+      	<ol><a class="btn btn-outline-dark" href="">Seleccionar Domicilio</a></ol>
+      	<ol><a class="btn btn-outline-dark" href="">Registrar Entrega</a></ol>
+      </ul>
+  
+    
+  </div>
+ 
+    
+  
+</div>
+
+
+
+
+
+
+	<script src="assets/js/jquery-3.5.1.slim.min.js"></script>
+<script src="assets/js/popper.min.js" ></script>
+<script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>

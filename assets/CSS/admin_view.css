@@ -1,0 +1,118 @@
+/*all*/
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+   }
+  /*sidebar admin*/
+.sidebar .admin{
+	position: fixed;
+	width: 242px;
+	color: whitesmoke;
+	height: 100%!important;
+	background: #065473;
+	transition: all .5s ease;
+}
+.sidebar .admin header{
+	font-size: 22px;
+	text-align: left;
+	padding-left: 35px;
+	line-height: 70px;
+	background: #2192BF;
+	user-select: none;
+}
+ /*sidebar cliente*/
+.sidebar .cliente{
+	position: fixed;
+	width: 242px;
+	height: 100%!important;
+	background: #014029;
+	transition: all .5s ease;
+}
+.sidebar .cliente header{
+	font-size: 22px;
+	color: whitesmoke;
+	text-align: left;
+	padding-left: 35px;
+	line-height: 70px;
+	background: #025939;
+	user-select: none;
+}
+ /*sidebar domi*/
+.sidebar .domi{
+	position: fixed;
+	width: 242px;
+	height: 100%!important;
+	background: #8C0B09;
+	transition: all .5s ease;
+}
+.sidebar .domi header{
+	font-size: 22px;
+	color: whitesmoke;
+	text-align: left;
+	padding-left: 35px;
+	line-height: 70px;
+	background: #8C0B16;
+	user-select: none;
+}
+/*sidebar*/
+.sidebar ul a{
+	display: block;
+	height: 100%;
+	width: 100%;
+	line-height: 65px;
+	font-size: 20px;
+	color: whitesmoke;
+	padding-left: 40px;
+	box-sizing: border-box;
+	border-top: 1px solid rgba(225, 225, 225, .1);
+	border-bottom: 1px solid black;
+	transition: .4s;
+}
+ul li:hover a{
+	padding-left: 50px;
+}
+.sidebar ul a i{
+	margin-right: 16px;
+}
+/*section*/
+section{
+	height: 800px;
+	padding: 35px;
+	margin: auto;
+	width: 100%;
+	overflow-y: scroll!important;
+	overflow-x: scroll!important;
+}
+ul ol a{
+	list-style: none;
+	text-decoration: none;
+	padding: 2px;
+	color: black;
+	margin: 5px;
+	border-bottom: 1px gray;
+	width: 100%;
+	border-top: 1px solid rgb(225, 225, 225);
+	border-bottom: 1px solid black;
+}
+/*fotter*/
+footer{
+	width: 100%;
+	height: 100%;
+	background: black;
+}
+/*other class*/
+.iconos{
+	height: 100px;
+	width: 100px;
+	padding: 5px;
+	border-radius: 50%;
+	margin: 0 auto;
+	display: block;
+}
+
+h1, .card-header{
+	background: radial-gradient(circle, #D9D9D9, white);
+}
